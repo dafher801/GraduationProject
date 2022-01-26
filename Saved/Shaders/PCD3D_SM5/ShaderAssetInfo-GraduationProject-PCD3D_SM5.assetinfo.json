@@ -1,0 +1,819 @@
+{
+	"AssetInfoVersion": 1,
+	"ShaderCodeToAssets": [
+		{
+			"ShaderMapHash": "7001604AAC33670BF3F0C812CC258599AE9BE6A3",
+			"Assets": [
+				"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "797EB0F662732AD7627C8642B6978B84C86C4A80",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B5CA55823292FCACA251E7226AF7E3FC5EFBAED7",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "881C3BDF188C94A81FA5857DEEB6CEF4F28AD9BF",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4639902031351831C7E48B1C1FCCFAA9D8270F5D",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1340EF9A957724547388F17EE0BA412990D89AEF",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset",
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9C46527C10875ADC99E740A9641E535C517A6093",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "221A923B148825C5901EE7E27F47C5F83D07BCAA",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "70D22F86575C0572C48F66D849478CCD0759C868",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C49FD5D36DFA9F2AEFF86CC56998D212CE5A42D5",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "34E9BB2D6FFC797E15BC5D43D7234C6A16C73FC7",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "45C4DE1707161C82EACFC28A9041C0391B12E312",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FA9361A41E12A345D8B77F6C1F60E335B521D5C3",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/GizmoMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "835A307A3B1C2987320421684D3784470DF38B8D",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "98F41CC5A8F9ADD7E2F1318806B09E8AE4FBC964",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1AF22D74760F536E82DC169628AF5F3D0815CE23",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8F2EA6B59A0193F0E817CF2CC94EB466BFC9A916",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8DCEF419E23FC815684D8CAE1DF47254213F18BF",
+			"Assets": [
+				"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset",
+				"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "42A391D20C39C6FBC448F4CBCC6F405D7452FE78",
+			"Assets": [
+				"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D1D3B0BDA1C9F87A7DD789D1B73C3865883675EB",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8AE5B47AA4DC9C0D7A44FF3FF9143EB28071D67F",
+			"Assets": [
+				"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A85CC88BF630C083C98E87881980ACCA2CFF3DD1",
+			"Assets": [
+				"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D30D90717BEA7269DCD83A3DE1186D03CABA27F1",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D5EC22D7F03A720A623FA6BDD8786B3A2CD8FC3E",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/VertexColorMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4D689F0146247586A01777EF0EC30DE8FB2AECC9",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "610269A05760C857BB3846C949674B105E33AA6D",
+			"Assets": [
+				"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BB1094779E35AC77084F84AABCF036D21E969385",
+			"Assets": [
+				"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D89E319B8548D4DAE4FAC1A3D77FC07295384AF1",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/M_SimpleUnlitTranslucent.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EA6CD5FAAE9F3D3436A7AA09E20033E0A7716E65",
+			"Assets": [
+				"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "06EA8C8E30F88027A31F54AAC734F5CC5911A3CB",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DE64BF85321461C8E211BED66772B77DD09999BF",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B98EC69CCE984134B6DEEF232C3A73E365DFCD8C",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D03A99C24DFF6922DA63C5FFAAE465C73912FCC6",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "699B170103D5751F5B5C72026F79C8663AE1807A",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "332C674165A6633128798E4CEFF67221C5E69CB2",
+			"Assets": [
+				"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0003D37EA49AE3B89442C55F0A581985E8F38E53",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "75D6B8B385F0DC5EEEA7C885D5432B7A0193AADC",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8BBC14CB9159BE247AFF79AC9642BE9EFFEDB926",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/Mannequin/Character/Materials/M_Male_Body.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8A14ECC1423CE402946221FECFD563F79D1823F8",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/Geometry/Meshes/CubeMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A9ED40A7D0B85E5E6B244615837544FF5D150972",
+			"Assets": [
+				"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "05703011733BA418202B96BF186015763F81D815",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E28F6514A1409F1DC70A0E584ADD24D39D04F13A",
+			"Assets": [
+				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F93DD4BE8D9EE1BFBE9482E8AE48C665AB66305D",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/ThirdPerson/Meshes/RampMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "22DE0BC46484C58082E9361F4888AC77C6DF3685",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "81DEE7CFF530E854078508C4D7BA343725ECF858",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "656181BE5CD33CC6CAE6665FBBA988C879E280B3",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "61808BE01BEDAF87C2EAC047D0CF52D46251C3F6",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F549B7F5526DBFF8D12E653AB7DC7F8A7BC4EC80",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "145A744D5F7CC7B3D8503051727AB8100FFD854E",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5F959D1EB0ED5E7431CA65565E95986D4E2E2A69",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Weapon_ForgingHammers/T_Forging_Mallet_02and3_D_Mat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DE6ADC9D3F35CB34DCB01B81CF02D39407B7C0FB",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Weapon_ForgingHammers/M_ForgeHammer_02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7D545364B97B972228A96905717ED4308B46DB77",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Weapon_ForgingHammers/M_ForgeHammer_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "246587A12E57A033FAD196D08296113F814516AE",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Maps/LevelContent/Architecture/M_CycRoom_01.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Maps/LevelContent/Architecture/M_CycRoom_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A35CA428B6603B90F29FBE85F0F7798A5B476D94",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Maps/LevelContent/Architecture/M_1Meter_01.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Maps/LevelContent/Architecture/M_1Meter_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5C1C696BB2E920295555D4C4DC0C25F7A3BEC8E7",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_WrappedDeath/M_Dual_Blade_WrappedDeath.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Talon/M_Dual_Blade_Talon.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Machete/M_Dual_Blade_Machete.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_Glimmer/M_Blade_Glimmer.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_SkexyAxe/M_Blade_SkexyAxe.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_TAxe/M_Blade_TAxe.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AACF3C3F7F81334FF4EAC9CFD177EF2EB648AD02",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Tech/M_Dual_Blade_Tech.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe9/M_Dual_Blade_Axe9.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe7/M_Dual_Blade_Axe7.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe2/M_Dual_Blade_Axe2.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe17/M_Dual_Blade_Axe17.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe11/M_Dual_Blade_Axe11.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_RockyHammer/M_Blunt_RockyHammer.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_FrostGiant/M_Blunt_FrostGiant.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Silly_Weapons/Blade_Driver/M_Blade_Driver.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Silly_Weapons/Blade_Chainsaw/M_Blade_Chainsaw.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_GreatBlade/M_Blade_GreatBlade.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_SpikeAxe/M_Blade_SpikeAxe.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_Snarl/M_Blade_Snarl.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_SmAxe/M_Blade_SmAxe.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_Hatchet02/M_Blade_Hatchet02.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_SegmentedB/M_Blade_SegmentedB.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_Segmented/M_Blade_Segmented.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_HeavyAxe/M_Blade_HeavyAxe.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_Hatchet/M_Blade_Hatchet.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_DeadlyAxe/M_Blade_DeadlyAxe.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_ExecutionerAxe/M_Blade_Execution.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_CrudeAxe/M_Blade_CrudeAxe.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EF19FB78F39EAA672B6804582F3A79D042D4278F",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_SwordOfStorms/M_Dual_Blade_SwordOfStorms.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe6/M_Dual_Blade_Axe6.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Hellhammer/M_Blunt_Hellhammer.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3EB24B64E691DBA03379206584D99A4D26EF178D",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Rock/M_Dual_Blade_Rock.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "95B69C7AB5FD643DE497E52DC370B2798C2E39D8",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Glimmer/M_Dual_Blade_Glimmer.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Fang/M_Dual_Blade_Fang.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "88DBFC0683D0194D2F76395E943F23ACC99A0BEA",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Cleaver/M_Dual_Blade_Cleaver.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe8/M_Dual_Blade_Axe8.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Pulverizer/M_Blunt_Pulverizer.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2A13462C37AF5F51D2C80818926279F315AE73C5",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_BronzeScythe/M_Dual_Blade_BronzeScythe.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2BFC5BBE81259F7A5C28B93183D965523AA3F102",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Bone/M_Dual_Blade_Bone.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Bludgeoner/M_Blunt_Bludgeoner.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Bell/M_Blunt_Bell.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackWyrmBlade/M_Blade_BlackWyrmBlade.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Silly_Weapons/Blade_Baguette/M_Blade_Baguette.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "31B029CD1DD440843B7DFDDE5E8A3473F4CE9C6D",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe5/M_Dual_Blade_Axe5.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_MeatTenderizer/M_Blunt_MeatTenderizer.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Core/M_Blunt_Core.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_CinderBlock/M_Blunt_CinderBlock.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_FissureBlade/M_Blade_FissureBlade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FB969D7EC36E76050E5408ACCB5F003C6DBA5F11",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe4/M_Dual_Blade_Axe4.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe3/M_Dual_Blade_Axe3.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe1/M_Dual_Blade_Axe1.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Arrow/M_Dual_Blade_Arrow.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Punctuator/M_Blunt_Punctuator.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "812DDE10E12DC9488E53ED18FE1A83728248000B",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe16/M_Dual_Blade_Axe16.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_GuitarHammer/M_Blunt_GuitarHammer.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3A18602EBD227AB623DF9ADAD9B5B3EC65BFE4F9",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe15/M_Dual_Blade_Axe15.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5536F210917E2FE85B684758FA8B27D881B22470",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe14/M_Dual_Blade_Axe14.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_SpikedClub/M_Blunt_SpikedClub.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C297FA2FDCFB633E161E4BCF56BB749FFFEC73C2",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe13/M_Dual_Blade_Axe13.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "371F40D7A9B4352B9E7FC236F0148482A7020B35",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe12/M_Dual_Blade_Axe12.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6ED911E9BCDC849FE25A1FD3C82FC7107E1492C6",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Dual_Blade/Dual_Blade_Axe10/M_Dual_Blade_Axe10.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A819816C026B2490671A90F4B9B2CD8F318915B5",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Unicorn/M_Blunt_Unicorn.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "59BBB95E8A48433F9C4039BB7EF5D4CC34283C6B",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Temperance/M_Blunt_Temperance.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4DEE2B1C3334199453B6C0AA6EAFD74BFCC53B76",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_StoneHammer/M_Blunt_StoneHammer.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F4436828B9B09854F117DD1413DA317BB44283F1",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Ravager/M_Blunt_Ravager.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_Fencer/M_Blade_Fencer.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "426353FB02752A023321928F977261A85382A812",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Primative/M_Blunt_Primative.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "64C824D3A6004A3F56E58AC0FDD3FE5B7D24DA9B",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_JudgeHammer/M_Blunt_JudgeHammer.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_TechAxe/M_Blade_TechAxe.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A5C6F49E18B21A9F440E4FBB149E394ED83EEE73",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_IceElemental/M_Blunt_IceElemental.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1C59A7D90E633A489B96B34309515ADB16DD64C6",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Hellhammer_Cine/M_Blunt_Hellhammer_Cine.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6FF42F2E76CE79BD8A627588A513563FF90D3E74",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_Hambone/M_Blunt_Hambone.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_BohntaPick/M_Blade_BohntaPick.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "87D23F273F5939E410F19F036B7112C98EB6C67C",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_CrudeHammer/M_Blunt_CrudeHammer.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E187E0266B8939D5CC11C57FF1DBB04C8B419E23",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_SwordB/M_Blade_SwordB.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2FBB08AB6FFE6423C55E36176EF9FC76F4DBDF60",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_SwordA/M_Blade_SwordA.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "894A93C30E1C1019E71F920AC8D8958017F3416F",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_HeroSword22/M_Blade_HeroSword22.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "471B51FDC7E7F50587974B7165A1FB87FD818AD7",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_HeroSword17/M_Blade_HeroSword17.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "58D1338948569255E64816A2CAA906559C3082D2",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_HeroSword16/M_Blade_HeroSword16.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "48ADC96EC701F6ACE1B7124638B15B6917A0623E",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_HeroSword11/M_Blade_HeroSword11.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "29B5DCFD72760DFC2C6665DB490D7B5F529C6B20",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_HeroSword10/M_Blade_HeroSword.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FD8468EDD488E6B479462814A1A9BAD0ED8F0B46",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_DragonSword/M_Blade_DragonSword.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/M_Blade_BlackKnight.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_FrostGiant/M_Blade_FrostGiant.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FB0866022130E913C3F05A1305275459D38BA261",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Silly_Weapons/Blade_Sucker/M_Blade_Sucker.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8C9AD1A0BD7B3AEAD79A739D591AF3DD39F7DA88",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Silly_Weapons/Blade_Finger/M_Blade_Finger.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5B5A48603225F024C2A575D4414C9696A087752F",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Silly_Weapons/Blade_ChickenBlade/M_Blade_ChickenBlade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1E3C8BADDDAD696BCFC3881EAEBE54B6F5F445D7",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Silly_Weapons/Blade_Bubblewand/M_Blade_Bubblewand.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0BC9FF3DA54767DF6DE9C71BBFCDEDB429ED7029",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Silly_Weapons/Blade_Balloon/M_Blade_Balloon.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "35F5D25A37F5F4AC10439D9FEEFC9DB9A82B211F",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_ThornAxe/M_Blade_ThornAxe.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0920747887373436B73569CA28C21CC5771B661B",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Maps/LevelContent/Architecture/M_CycWall_01.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Maps/LevelContent/Architecture/M_CycWall_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "88A54A1DC1DF43E6394D51C74F892E6AEF8B3855",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_AnthraciteAxe/M_Blade_AnthraciteAxe.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6613D39242F02622B357FFF210788A1D119E6CA2",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_solid/M_CharM_Solid_Alternate.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "518231E6FCFA0F9184AC9E3C37A1FC11D1190AED",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_IceElemental/M_Blade_IceElemental.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CDB55CE56C4C751896DD38D2F81A13AFD6B5D8A2",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Silly_Weapons/Blade_BatAxe/M_Blade_BatAxe.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "77F6B8A3CF7C6D32AFE6EB058B21082EAED11C7B",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Warrior/M_Char_Warrior.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DA789D4AD24A67AC7EE026B298F1A6DAB8D47E5E",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit3.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit2.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7827D962380397CCED693CE82CDA1858197744D1",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Natural/M_Char_Natural.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "43B718E1D458C71FFD0F65C1E01A96ED5CAFC227",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ram/M_Char_Ram.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CC015B0CB03B9D67938E89BFE97F4986AFE086CB",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Barbarous/M_Char_Barbarous_Elite.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "652FB0EBC8F5F45E7272317B5883AA9B30E8D1A8",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Golden/M_Char_Golden.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8B8443C1BBF70488E0D5A704668AD3F3006B327B",
+			"Assets": [
+				"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E5E60F32FD3AA5F9A5E89C6B9C899326DCF09024",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_FrostGiant/M_Char_FrostGiant.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "25729A66BDC260EB1668F8A46C8F438B472BAE05",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Forge/M_Char_Forge.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2BB5B5B92B663A2AEE2682B88042D031ED785746",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Bladed/M_CharM_Bladed.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "620FDA08B13BC9525FCD0F0E16A022EDACA7B721",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_solid/M_Char_Solid.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FFCE534A05E847C8B3475BA85989AD216B284040",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Base/M_CharM_Base.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C25345C144D713E7412114DBC0CE886CA0AF3D1E",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Barbarous/M_Char_Barbrous.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "05E21585E848E245133DCF3B7DC592550EEA50AE",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_SmAxe/T_Blade_SmAxe1_Mat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CDD0F46D45A2095D1EA1B349BBC47E57289973D1",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_RandorAxe/M_Blade_RandorAxe.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9ED88CBA2E97C551B8CA8C70C2E51B1B570FCC2C",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Blunt/Blunt_BoneShard/Materials/T_Blunt_BoneShardMace_D_Mat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FE325C67AAB5AC3AAD6AA8D7FDCDC48AB1E72193",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWeapons/Weapons/Staff/Materials/T_Stf_StaffofAncients_D_Mat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B90EBAA8A8CBFD31BA4ABF0C5FD1B9589FFD7634",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Cardboard/M_Char_Cardboard.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2699103BEA549FFE675F6C2E4A5489173DC949ED",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Talon.uasset",
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Tusk.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "58F270A9D16910B85CB4F768DC38078E2AE23585",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Horn.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "421FB428CD7FAE911357BDAF3BF3D564259841A0",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Standard/M_Char_Standard_Elite.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "24325A1009E894E3A11B2DF38D95B6B3FCB33904",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Warrior/M_Char_Warrior_B.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1EA6034B1225D8743498A88756A153AF06311E61",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Standard/M_Char_Standard.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4917E1A6384C3CC7E6158F925503F8D8B5FA560E",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Shell/M_Char_Shell.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "195647103F30CDDF98D65D664D423A802C50B2D3",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Robo/M_Char_Robo.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B4AABEBF25CC5E8B6EE59EE7880E0409A62CD397",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ragged/M_Char_Ragged.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "722C709CE82F335AFA684C93670065EA8A2164CA",
+			"Assets": [
+				"../../../../Unreal Projects/GraduationProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ragged/M_Char_RaggedElite.uasset"
+			]
+		}
+	]
+}

@@ -24,8 +24,8 @@ protected:
 
 	virtual void BeginPlay() override;
 
-	virtual void LookAtTarget() override;
-	virtual void Move() override;
+	virtual bool Move() override;
+	virtual bool LookAtTarget() override;
 	virtual void Fire(float DeltaTime) override;
 
 	void InputForward(float NewForwardValue);

@@ -4,12 +4,15 @@
 #include "Kismet/GameplayStatics.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "UnitAnimInstance.h"
+#include "Blueprint/AIBlueprintHelperLibrary.h"
 
 AUnit::AUnit()
 	: MoveVector(FVector::ZeroVector)
 	, BodyRotation(FRotator::ZeroRotator)
 	, TargetLocation(FVector::ZeroVector)
 	, TimeElapsedSinceAttack(0.0f)
+	, bFiring(false)
 {
 	PrimaryActorTick.bCanEverTick = true;
 
@@ -24,6 +27,8 @@ void AUnit::Tick(float DeltaTime)
 		return;
 
 	Super::Tick(DeltaTime);
+
+	TimeElapsedSinceAttack += DeltaTime;
 }
 
 void AUnit::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -73,6 +78,11 @@ void AUnit::SetActivated(bool Activated)
 	SetActorEnableCollision(bActivated);
 }
 
+bool AUnit::IsFiring() const
+{
+	return bFiring;
+}
+
 TSubclassOf<class AWeapon> AUnit::GetWeaponClassName() const
 {
 	return WeaponClassName;
@@ -94,32 +104,57 @@ void AUnit::BeginPlay()
 	TimeElapsedSinceAttack = 1.0f / CurrentStatus.AttackSpeed;
 }
 
-void AUnit::LookAtTarget()
+bool AUnit::Move()
+{
+	AddMovementInput(MoveVector);
+
+	return true;
+}
+
+void AUnit::MoveExit()
+{
+	UAIBlueprintHelperLibrary::SimpleMoveToActor(Controller, this);
+}
+
+bool AUnit::LookAtTarget()
 {
 	FVector2D UnitScreenLocation;
 	FVector2D TargetScreenLocation;
 
-	UGameplayStatics::GetPlayerController(GetWorld(), 0)->
-		ProjectWorldLocationToScreen(GetActorLocation(), UnitScreenLocation, true);
+	APlayerController* PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 
-	UGameplayStatics::GetPlayerController(GetWorld(), 0)->
-		ProjectWorldLocationToScreen(TargetLocation, TargetScreenLocation, true);
+	if (PlayerController)
+	{
+		PlayerController->ProjectWorldLocationToScreen(GetActorLocation(), UnitScreenLocation, true);
+		PlayerController->ProjectWorldLocationToScreen(TargetLocation, TargetScreenLocation, true);
+	}
+	else
+		return false;
 
 	BodyRotation = FVector(TargetScreenLocation - UnitScreenLocation, 0.0f).Rotation();
 
 	SetActorRotation(BodyRotation + RotationErrorCalculation);
+
+	return true;
 }
 
-void AUnit::Move()
+void AUnit::BeginFire()
 {
-	AddMovementInput(MoveVector);
+	if (!bFiring)
+	{
+		bFiring = true;
+		TimeElapsedSinceAttack = 0.0f;
+		Cast<UUnitAnimInstance>(GetMesh()->GetAnimInstance())->PlayFireMontage();
+	}
 }
 
 void AUnit::Fire(float DeltaTime)
 {
-	if (1.0f / CurrentStatus.AttackSpeed - (TimeElapsedSinceAttack += DeltaTime) <= 0)
-	{
-		WeaponSystem->Fire();
-		TimeElapsedSinceAttack = 0.0f;
-	}
+	WeaponSystem->Fire();
+	TimeElapsedSinceAttack = 0.0f;
+}
+
+void AUnit::ExitFire()
+{
+	bFiring = false;
 }

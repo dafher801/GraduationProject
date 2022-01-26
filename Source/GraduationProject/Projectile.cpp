@@ -64,8 +64,6 @@ void AProjectile::Tick(float DeltaTime)
 
 	Super::Tick(DeltaTime);
 
-	UE_LOG(LogTemp, Log, TEXT("%f %f"), CurrentMovementDistance, MaxMovementDistance);
-
 	if ((CurrentMovementDistance += (DeltaTime * Movement->MaxSpeed)) > MaxMovementDistance)
 		SetActivated(false);
 }

@@ -18,6 +18,15 @@ public:
 public:
 
 	virtual void Tick(float DeltaTime) override;
+
+	virtual bool Move();
+	void MoveExit();
+
+	virtual bool LookAtTarget();
+
+	virtual void BeginFire();
+	virtual void Fire(float DeltaTime);
+	virtual void ExitFire();
 	
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
@@ -31,15 +40,13 @@ public:
 	bool GetActivated() const;
 	void SetActivated(bool Activated);
 
+	bool IsFiring() const;
+
 	TSubclassOf<class AWeapon> GetWeaponClassName() const;
 
 protected:
 
 	virtual void BeginPlay() override;
-
-	virtual void LookAtTarget();
-	virtual void Move();
-	virtual void Fire(float DeltaTime);
 
 protected:
 
@@ -66,5 +73,7 @@ protected:
 	float TimeElapsedSinceAttack;
 
 	bool bActivated;
+
+	bool bFiring;
 
 };

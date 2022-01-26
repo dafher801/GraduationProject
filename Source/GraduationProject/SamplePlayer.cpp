@@ -45,28 +45,33 @@ void ASamplePlayer::BeginPlay()
 	Super::BeginPlay();
 }
 
-void ASamplePlayer::LookAtTarget()
+bool ASamplePlayer::LookAtTarget()
 {
 	UGameplayStatics::GetPlayerController(GetWorld(), 0)->
 		DeprojectMousePositionToWorld(TargetLocation, WorldDirection);
 
-	Super::LookAtTarget();
+	return Super::LookAtTarget();
 }
 
-void ASamplePlayer::Move()
+bool ASamplePlayer::Move()
 {
 	MoveVector = FVector(CurrentForwardValue, CurrentRightValue, 0.0f);
 
 	if (MoveVector.SizeSquared() > 0.0f)
 	{
-		Super::Move();
+		return Super::Move();
 	}
+
+	return false;
 }
 
 void ASamplePlayer::Fire(float DeltaTime)
 {
-	if (bPressedLeftMouse)
+	if (bPressedLeftMouse && !bFiring && 
+		(1.0f / CurrentStatus.AttackSpeed - TimeElapsedSinceAttack) <= 0)
+	{
 		Super::Fire(DeltaTime);
+	}
 }
 
 void ASamplePlayer::InputForward(float NewForwardValue)

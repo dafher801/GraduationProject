@@ -24,8 +24,8 @@ void AGraduationProjectGameModeBase::SpawnEnemy()
 	
 	do
 	{
-		SpawnLocation = FVector(FRandomStream(rand()).
-			FRandRange(-1000.0f, 1000.0f), FRandomStream(rand()).FRandRange(-1000.0f, 1000.0f), 0.0f);
+		SpawnLocation = FVector(FRandomStream(rand()).FRandRange(-1000.0f, 1000.0f), 
+			FRandomStream(rand()).FRandRange(-1000.0f, 1000.0f), Player->GetActorLocation().Z);
 
 	} while (FVector::Distance(SpawnLocation, Player->GetActorLocation()) < Player->GetCurrentStatus().Range);
 
